@@ -262,10 +262,6 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-
   .logo {
     margin: -27px;
     width: 113px;
@@ -291,7 +287,10 @@ p {
   }
   .content {
     line-height: 2.5rem;
-    padding: 2px;
+    /* padding: 2px; */
+    /* line-height: 2.5rem; */
+    padding: 33px;
+}
   }
   .input-mail {
     flex-direction: column;
