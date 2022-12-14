@@ -267,7 +267,7 @@ p {
     width: 113px;
   }
   .banner {
-    height: 80vh;
+    height: 60vh;
   }
   h1 {
     font-size: 1.75rem;
@@ -290,8 +290,8 @@ p {
     /* padding: 2px; */
     /* line-height: 2.5rem; */
     padding: 33px;
-}
   }
+
   .input-mail {
     flex-direction: column;
     background-color: transparent;
