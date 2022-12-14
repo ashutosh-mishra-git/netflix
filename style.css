@@ -113,7 +113,7 @@ h2 h3 {
   border: 1px transparent black;
 }
 
-input[name="email-input"] {
+.input {
   width: 70%;
   height: 100%;
   padding: 1.2rem;
@@ -170,7 +170,7 @@ p {
 }
 
 .card2 img {
-  width: 500px;
+  width: 450px;
   padding-right: 30px;
 }
 
@@ -259,4 +259,93 @@ p {
 }
 .pw {
   font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .logo {
+    margin: -27px;
+    width: 113px;
+  }
+  .banner {
+    height: 80vh;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 0.75rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .sign-in {
+    font-size: 0.75rem;
+  }
+  .dropdown {
+    padding: 0%;
+  }
+  .content {
+    line-height: 2.5rem;
+    padding: 2px;
+  }
+  .input-mail {
+    flex-direction: column;
+    background-color: transparent;
+  }
+  .get-started {
+    width: 44%;
+    font-size: 1rem;
+    margin: 15px;
+  }
+  .input {
+    width: 130%;
+    border-radius: 30px solid #000;
+  }
+  .cards {
+    flex-direction: column;
+    margin: 5px;
+  }
+  .card2 {
+    width: 100%;
+  }
+  .card-1 {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .card-h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .card2 > img {
+    width: 380px;
+  }
+
+  .card-1 > p {
+    font-weight: 400;
+  }
+
+  .textcontent {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
+  .removeclasser {
+    margin-top: -2.5px !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+  .fo-links > ul > li > a {
+    font-size: 10px;
+    line-height: 2px;
+  }
 }
